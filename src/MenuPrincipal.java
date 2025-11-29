@@ -11,6 +11,7 @@ public class MenuPrincipal {
             System.out.println("\n===== MENÚ PRINCIPAL =====");
             System.out.println("1. Conversor");
             System.out.println("2. Tabla de Verdad Simple");
+            System.out.println("3. Contador de numeros primos");
             System.out.println("0. Salir");
             System.out.print("Elige una opción: ");
 
@@ -32,6 +33,9 @@ public class MenuPrincipal {
                     System.out.println("\n--- EJECUTANDO TABLA DE VERDAD ---\n");
                     TablaVerdadSimple.main(null); 
                     break;
+                case 3:
+                    System.out.println("--EJECUTANDO CONTADOR DE PRIMOS--");
+                    Contador.main(null);
 
                 case 0:
                     System.out.println("Saliendo del programa...");
